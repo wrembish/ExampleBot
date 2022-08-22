@@ -1,0 +1,10 @@
+# Ignore . files except for .gitignore
+**/.*
+!.gitignore
+
+# ignore node files
+**/package-lock.json
+**/node_modules
+
+#ignore any testing files created
+**/*test*

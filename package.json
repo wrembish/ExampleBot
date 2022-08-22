@@ -1,0 +1,22 @@
+{
+  "name": "examplebot",
+  "version": "1.0.0",
+  "description": "Bot shell for developing a discord bot with a mongodb data backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "predev": "node deploy-commands-dev.js",
+    "dev": "nodemon index.js",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "author": "William Rembish",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.2.0",
+    "dotenv": "^16.0.1",
+    "mongodb": "^4.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
